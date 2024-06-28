@@ -1,0 +1,1 @@
+Wtyczka eksportująca pola warstw
