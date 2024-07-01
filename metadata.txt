@@ -3,31 +3,27 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=Style Exporter
+name=Slownik warstw
 qgisMinimumVersion=3.0
-description=Plugin export styles of selected layers to individual file with name same as layers name.
-version=1.0
+description=Tworzy słownik w formie pliku txt rozdzielanego tabulacjami dla wybranych warstw, program pozwala na eksport pełnych nazw pól danej warstwy oraz wersje jako powstanie po zmienie z gpkg do shp.
+version=0.1
 author=Łukasz Świątek
 email=lukasz.swiatek1996@gmail.com
 
-about=EN: Plugin batch layer styles export of selected layers to individual file with same name as layers name. PL: Plugin eksportuje masowo style wybranych warstw do odrębnych plików z nazwami takimi jak nazwa warstwy.
+about=Program eksportuje nazwę warstwy oraz nazwę pól z tabeli atrybutów do pliku txt, który jest rozdzielany tabulacjami i jest prosty do wklejenia do xlsx. [EN] Program exports layer names and field names from attribute table to tab seperated txt file.
 
-tracker=https://github.com/Rzezimioszek/QGIS-style-exporter/issues
-repository=https://github.com/Rzezimioszek/QGIS-style-exporter
+tracker=https://github.com/Rzezimioszek/QGIS-layer-dictionary/issues
+repository=https://github.com/Rzezimioszek/QGIS-layer-dictionary
 # End of mandatory metadata
 
 # Recommended items:
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-changelog= 
-   0.1 - first relase
-   0.2 - bugs fix
-   0.5 - minor bug fix
-   1.0 - English version
+# changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python,layer style, style, export, polish
+tags=python,layer dictionary, dictionary, export, polish, name, layername, txt, xlsx, fieldname, 
 
 homepage=http://github.com/Rzezimioszek
 category=Plugins

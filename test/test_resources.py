@@ -9,7 +9,7 @@
 """
 
 __author__ = 'lukasz.swiatek1996@gmail.com'
-__date__ = '2024-03-01'
+__date__ = '2024-02-29'
 __copyright__ = 'Copyright 2024, Łukasz Świątek'
 
 import unittest
@@ -18,7 +18,7 @@ from qgis.PyQt.QtGui import QIcon
 
 
 
-class StyleExporterDialogTest(unittest.TestCase):
+class SlownikWarstwDialogTest(unittest.TestCase):
     """Test rerources work."""
 
     def setUp(self):
@@ -31,12 +31,12 @@ class StyleExporterDialogTest(unittest.TestCase):
 
     def test_icon_png(self):
         """Test we can click OK."""
-        path = ':/plugins/StyleExporter/icon.png'
+        path = ':/plugins/SlownikWarstw/icon.png'
         icon = QIcon(path)
         self.assertFalse(icon.isNull())
 
 if __name__ == "__main__":
-    suite = unittest.makeSuite(StyleExporterResourcesTest)
+    suite = unittest.makeSuite(SlownikWarstwResourcesTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
 

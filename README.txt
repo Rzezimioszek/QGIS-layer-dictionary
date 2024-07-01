@@ -1,7 +1,7 @@
 Plugin Builder Results
 
-Your plugin StyleExporter was created in:
-    D:/Python/_QGIS_PLUGINS/tutorial\style_exporter
+Your plugin SlownikWarstw was created in:
+    D:/Python/_QGIS_PLUGINS/tutorial\slownik warstw
 
 Your QGIS plugin directory is located at:
     C:/Users/BG-P/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
@@ -17,11 +17,11 @@ What's Next:
 
   * Test the plugin by enabling it in the QGIS plugin manager
 
-  * Customize it by editing the implementation file: ``style_exporter.py``
+  * Customize it by editing the implementation file: ``Slownik warstw.py``
 
   * Create your own custom icon, replacing the default icon.png
 
-  * Modify your user interface by opening StyleExporter_dialog_base.ui in Qt Designer
+  * Modify your user interface by opening SlownikWarstw_dialog_base.ui in Qt Designer
 
   * You can use the Makefile to compile your Ui and resource files when
     you make changes. This requires GNU make (gmake)

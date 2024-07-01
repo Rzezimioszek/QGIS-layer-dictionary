@@ -1,6 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/style_exporter" >
+    <qresource prefix="/plugins/Slownik warstw" >
         <file>icon.png</file>
-		<file>icon32.png</file>
     </qresource>
 </RCC>

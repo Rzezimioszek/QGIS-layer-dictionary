@@ -1,9 +1,9 @@
 #/***************************************************************************
-# StyleExporter
+# SlownikWarstw
 #
-# Plugin export styles of selected layers to individual file with name same as layers name.
+# Tworzy słownik dla wybranych warstw.
 #							 -------------------
-#		begin				: 2024-03-01
+#		begin				: 2024-02-29
 #		git sha				: $Format:%H$
 #		copyright			: (C) 2024 by Łukasz Świątek
 #		email				: lukasz.swiatek1996@gmail.com
@@ -38,15 +38,15 @@ LOCALES =
 # translation
 SOURCES = \
 	__init__.py \
-	style_exporter.py style_exporter_dialog.py
+	Slownik warstw.py Slownik warstw_dialog.py
 
-PLUGINNAME = style_exporter
+PLUGINNAME = Slownik warstw
 
 PY_FILES = \
 	__init__.py \
-	style_exporter.py style_exporter_dialog.py
+	Slownik warstw.py Slownik warstw_dialog.py
 
-UI_FILES = style_exporter_dialog_base.ui
+UI_FILES = Slownik warstw_dialog_base.ui
 
 EXTRAS = metadata.txt icon.png
 
