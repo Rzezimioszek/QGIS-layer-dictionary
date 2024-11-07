@@ -6,11 +6,14 @@
 name=Slownik warstw
 qgisMinimumVersion=3.0
 description=Tworzy słownik w formie pliku txt rozdzielanego tabulacjami dla wybranych warstw, program pozwala na eksport pełnych nazw pól danej warstwy oraz wersje jako powstanie po zmienie z gpkg do shp.
-version=0.1
+version=1.0
 author=Łukasz Świątek
 email=lukasz.swiatek1996@gmail.com
 
-about=Program eksportuje nazwę warstwy oraz nazwę pól z tabeli atrybutów do pliku txt, który jest rozdzielany tabulacjami i jest prosty do wklejenia do xlsx. [EN] Program exports layer names and field names from attribute table to tab seperated txt file.
+about= 
+	[EN] Plugin exports layer names and field names from attribute table to tab seperated txt file.
+	
+	[PL] Wtyczka eksportuje nazwę warstwy oraz nazwę pól z tabeli atrybutów do pliku txt, który jest rozdzielany tabulacjami i jest prosty do wklejenia do xlsx.
 
 tracker=https://github.com/Rzezimioszek/QGIS-layer-dictionary/issues
 repository=https://github.com/Rzezimioszek/QGIS-layer-dictionary
@@ -20,7 +23,10 @@ repository=https://github.com/Rzezimioszek/QGIS-layer-dictionary
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=
+	* 1.0 
+		- EN labels
+		- Layer list contain not only visible layers but only vector
 
 # Tags are comma separated with spaces allowed
 tags=python,layer dictionary, dictionary, export, polish, name, layername, txt, xlsx, fieldname, 

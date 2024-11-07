@@ -24,7 +24,7 @@
 from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction, QFileDialog
-from qgis.core import QgsProject, Qgis
+from qgis.core import QgsProject, Qgis, QgsMapLayer
 
 # Initialize Qt resources from file resources.py
 from .resources import *
@@ -186,11 +186,13 @@ class SlownikWarstw:
         
     def load_table(self):
         
-        itemLabels = [layer.name() for layer in self.iface.mapCanvas().layers()]
-        self.dlg.listWidget.clear()
         
-        for item in itemLabels:
-            self.dlg.listWidget.addItem(item);
+        self.dlg.listWidget.clear()
+        for l in QgsProject.instance().mapLayers().values():
+        
+            if l.type() == QgsMapLayer.VectorLayer:
+
+                self.dlg.listWidget.addItem(l.name());
             
     def load_field_table(self):
         
